@@ -20,7 +20,17 @@ sonia = Gimnasta{
 	nivelEquilibrio = 60,
 	flexibilidad = 40,
 	fuerzaFisica = 50,
-	habilidades = []
+	habilidades = [medialuna, rolAdelante 20, saltoMortal 15 40]
+}
+
+pedro = Gimnasta{
+	
+	nombreDeportista = "Sonia",
+	nivelEnergia = 70,
+	nivelEquilibrio = 50,
+	flexibilidad = 50,
+	fuerzaFisica = 60,
+	habilidades = [saltoConSoga 150, vertical, rolAdelante 30]
 }
 
 mitad :: Int -> Int
@@ -42,3 +52,5 @@ saltoConSoga saltos deportista = deportista {nivelEnergia = (-) (mitad saltos) (
 saltoMortal :: Int -> Int -> Deportista -> Deportista
 saltoMortal impulso altura deportista = deportista {fuerzaFisica = (+) altura (fuerzaFisica deportista),
 												flexibilidad = (+ (mitad impulso)) (flexibilidad deportista)}
+
+ 
