@@ -25,7 +25,7 @@ sonia = Gimnasta{
 
 pedro = Gimnasta{
 	
-	nombreDeportista = "Sonia",
+	nombreDeportista = "Pedro",
 	nivelEnergia = 70,
 	nivelEquilibrio = 50,
 	flexibilidad = 50,
