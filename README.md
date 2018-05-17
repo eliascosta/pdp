@@ -1,2 +1,1 @@
-# pdp
-clase 9-5
+# pdp - funcional
