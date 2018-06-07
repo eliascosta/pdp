@@ -1,1 +1,1 @@
-# pdp - funcional
+# Paradigmas de Programacion - funcional
